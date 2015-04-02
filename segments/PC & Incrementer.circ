@@ -64,77 +64,68 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(460,290)" to="(460,360)"/>
+    <wire from="(240,210)" to="(240,280)"/>
     <wire from="(740,370)" to="(740,440)"/>
-    <wire from="(760,290)" to="(760,360)"/>
-    <wire from="(290,290)" to="(460,290)"/>
     <wire from="(460,360)" to="(460,380)"/>
     <wire from="(740,370)" to="(780,370)"/>
     <wire from="(740,440)" to="(840,440)"/>
+    <wire from="(610,330)" to="(610,360)"/>
     <wire from="(470,370)" to="(470,400)"/>
     <wire from="(270,210)" to="(270,240)"/>
-    <wire from="(290,380)" to="(330,380)"/>
-    <wire from="(290,360)" to="(330,360)"/>
     <wire from="(680,380)" to="(680,400)"/>
     <wire from="(760,360)" to="(760,380)"/>
-    <wire from="(380,270)" to="(380,360)"/>
-    <wire from="(610,290)" to="(760,290)"/>
+    <wire from="(610,330)" to="(760,330)"/>
     <wire from="(610,360)" to="(630,360)"/>
     <wire from="(610,380)" to="(630,380)"/>
     <wire from="(670,360)" to="(690,360)"/>
     <wire from="(620,410)" to="(830,410)"/>
     <wire from="(470,400)" to="(680,400)"/>
-    <wire from="(320,410)" to="(530,410)"/>
     <wire from="(230,150)" to="(230,190)"/>
     <wire from="(250,260)" to="(530,260)"/>
     <wire from="(530,260)" to="(530,360)"/>
+    <wire from="(220,330)" to="(240,330)"/>
     <wire from="(250,210)" to="(250,260)"/>
     <wire from="(470,370)" to="(480,370)"/>
-    <wire from="(240,270)" to="(380,270)"/>
-    <wire from="(220,290)" to="(290,290)"/>
     <wire from="(820,380)" to="(830,380)"/>
     <wire from="(520,360)" to="(530,360)"/>
-    <wire from="(520,380)" to="(530,380)"/>
     <wire from="(270,240)" to="(840,240)"/>
-    <wire from="(290,290)" to="(290,360)"/>
-    <wire from="(610,290)" to="(610,360)"/>
-    <wire from="(290,360)" to="(290,380)"/>
     <wire from="(830,380)" to="(830,410)"/>
-    <wire from="(530,380)" to="(530,410)"/>
+    <wire from="(760,330)" to="(760,360)"/>
     <wire from="(260,250)" to="(690,250)"/>
+    <wire from="(240,310)" to="(240,330)"/>
+    <wire from="(460,330)" to="(460,360)"/>
     <wire from="(610,360)" to="(610,380)"/>
     <wire from="(820,360)" to="(840,360)"/>
     <wire from="(620,370)" to="(620,410)"/>
     <wire from="(690,250)" to="(690,360)"/>
     <wire from="(760,360)" to="(780,360)"/>
     <wire from="(760,380)" to="(780,380)"/>
+    <wire from="(240,330)" to="(460,330)"/>
     <wire from="(460,380)" to="(480,380)"/>
     <wire from="(460,360)" to="(480,360)"/>
     <wire from="(260,210)" to="(260,250)"/>
-    <wire from="(320,370)" to="(320,410)"/>
-    <wire from="(460,290)" to="(610,290)"/>
-    <wire from="(320,370)" to="(330,370)"/>
-    <wire from="(370,360)" to="(380,360)"/>
+    <wire from="(460,330)" to="(610,330)"/>
     <wire from="(840,240)" to="(840,360)"/>
     <wire from="(670,380)" to="(680,380)"/>
-    <wire from="(240,210)" to="(240,270)"/>
     <wire from="(620,370)" to="(630,370)"/>
-    <comp lib="4" loc="(520,360)" name="J-K Flip-Flop"/>
+    <comp lib="4" loc="(670,360)" name="J-K Flip-Flop"/>
+    <comp lib="1" loc="(240,280)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="4" loc="(820,360)" name="J-K Flip-Flop"/>
+    <comp lib="0" loc="(230,190)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
     <comp lib="0" loc="(230,150)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
       <a name="width" val="4"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(220,290)" name="Constant"/>
-    <comp lib="0" loc="(230,190)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
-    </comp>
-    <comp lib="4" loc="(820,360)" name="J-K Flip-Flop"/>
-    <comp lib="4" loc="(670,360)" name="J-K Flip-Flop"/>
-    <comp lib="4" loc="(370,360)" name="J-K Flip-Flop"/>
+    <comp lib="4" loc="(520,360)" name="J-K Flip-Flop"/>
+    <comp lib="0" loc="(220,330)" name="Constant"/>
     <comp lib="0" loc="(840,440)" name="Pin">
       <a name="facing" val="west"/>
       <a name="tristate" val="false"/>
